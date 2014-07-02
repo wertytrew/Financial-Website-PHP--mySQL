@@ -1,0 +1,76 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+}
+
+#top img
+{
+    margin-top: 35px;
+}
+
+.spacer
+{
+    background-color: #8CC53F;
+    height: 10px;
+}
+
+#middle
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 70%;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.nav
+{
+    margin-bottom: 25px;
+}
+
+li.active a
+{
+    background-color: #FFFFF0 !important;
+} 
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* bottom whitespace */
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: beige;
+}
